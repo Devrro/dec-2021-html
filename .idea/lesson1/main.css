@@ -1,0 +1,22 @@
+h2 {
+    background: silver;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.female {
+    background: pink;
+}
+
+.male {
+    background: #7b92e0;
+}
+
+h1 {
+    text-align: center;
+}
