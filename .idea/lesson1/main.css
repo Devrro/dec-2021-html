@@ -1,7 +1,6 @@
-h2 {
-    background: silver;
+h2{
+    text-align: center;
 }
-
 .pic {
     display: block;
     margin-left: auto;
