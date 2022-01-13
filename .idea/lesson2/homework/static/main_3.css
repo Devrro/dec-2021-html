@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    height: auto;
+}
+div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+.text{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 86px;
+}
+
+.box{
+    background-color:  #fda901;
+    box-shadow: 20px 20px 0px 0px #464646;
+}
+
+.box:nth-child(2){
+    box-shadow: 20px 20px 5px 0px #464646;
+}
+.box:nth-child(3){
+    box-shadow: 20px 20px 5px 5px #464646;
+}
+.box:nth-child(4){
+    box-shadow: 20px 20px 5px 5px #9d9d9d;
+}
+.box:nth-child(5){
+    border-radius: 10px;
+    box-shadow: 20px 20px 5px 5px #464646;
+}
+.box:nth-child(6){
+    border-radius: 10px;
+    box-shadow: 20px 20px 5px 5px #9d9d9d;
+}

@@ -1,0 +1,28 @@
+.lesson{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: #882726;
+    margin: 20px 0;
+}
+.grey_box{
+    background-color: #bfbfbf;
+    padding: 20px;
+}
+.blue_box{
+    background-color: #6394eb;
+    padding: 40px 0px;
+}
+.green_box{
+    background-color: #6bb967;
+    width: 300px;
+    height: 300px;
+}
+
+.purple_box{
+    background-color: #8785aa;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}

@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 720px;
+    overflow: hidden;
+}
+
+.block{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 10px;
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    background-color: #7f7f80;
+    box-shadow: -30px -18px 47px 12px #d2b58d;
+}
+.red_border{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-left: 5px solid red;
+}
+
+.paragraph_with_border{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
