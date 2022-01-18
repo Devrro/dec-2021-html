@@ -1,0 +1,105 @@
+.brd_25{
+    border-radius: 25px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #ccd7e1;
+    font-family: Arial;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: 50px 0px;
+
+}
+
+.b_br {
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-items: center;
+
+    text-align: center;
+
+    margin-top: 50px;
+    width: 1500px;
+    height: 900px;
+    border: 5px solid #99bbc8;
+    border-radius: 50px;
+}
+
+.container:nth-child(2) {
+    justify-content: center;
+    flex-direction: row;
+    background: #102b3e;
+}
+
+.cards_box{
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+}
+
+.box_pic{
+    width: 250px;
+    height: 200px;
+    background: #102b3e;
+}
+
+
+.user_card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #5a8096;
+
+    height: 400px;
+    width: 300px;
+
+    transition: 0.2s ease;
+}
+
+
+.user_card:hover{
+    box-sizing: border-box;
+    border: 5px solid #5a8096;
+}
+
+
+/*.user_card:nth-child(2){*/
+/*    border: 5px solid #5a8096;*/
+/*}*/
+
+.user_photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #5a8096;
+}
+.user_card>p{
+    display: inline-block;
+    width: 200px;
+}
+

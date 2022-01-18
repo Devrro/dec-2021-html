@@ -64,7 +64,7 @@ body {
     padding: 0px 50px;
     margin-right: 50px;
     background: #98a0a4;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .nav_links > li > a {
@@ -153,7 +153,7 @@ body {
     display: inline-block;
     background: darkslategrey;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .text_block > h3{
     background: #a6a6a6;
@@ -193,6 +193,7 @@ body {
     flex: 1 1 500px;
 }
 .down_box > .box:nth-child(2) {
+    width: 1230px;
     flex: 2 1 1230px;
 }
 
