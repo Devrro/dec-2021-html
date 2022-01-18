@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;900&display=swap');
+
+body {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Heebo;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: 500px;
+
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: rgba(100, 100, 100, 0.2);
+    margin: 30px;
+    font-size: 60px;
+}
+
+.card {
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px #d0d0d0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    word-spacing: normal;
+    /*background: yellow;*/
+}
+
+.card > p {
+    text-align: center;
+    text-indent: each-line;
+}
+
+.card > h3 {
+    color: #b97b5d;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+
+    user-select: none;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background: #55c2b5;
+    border-radius: 3px;
+
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #2d655e;
+}

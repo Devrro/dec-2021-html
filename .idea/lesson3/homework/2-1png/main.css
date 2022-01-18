@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 800px;
+    font-family: Arial;
+
+}
+
+.container_main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background: #dadada;
+    box-sizing: border-box;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.container{
+    display: flex;
+    flex-grow: 1;
+}
+.container:nth-child(2){
+    display: flex;
+    flex-grow: 8;
+}
+.menu_post{
+    text-transform: capitalize;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 100%;
+    flex-grow: 2;
+    background: #9f9f9f;
+}
+
+.posts{
+    flex-grow: 6;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    column-gap: 10px;
+    row-gap: 10px;
+
+    height: 100%;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background: #9f9f9f;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9f9f9f;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9f9f9f;
+    width: 100%;
+}
