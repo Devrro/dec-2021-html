@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.gr_col{
+    background: #969696;
+}
+.flex-cntr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    text-transform: capitalize;
+}
+.sub_container{
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.general_container{
+    margin-top: 10vh;
+    display: flex;
+    width: 100%;
+}
+.sub_container{
+    width: 40vw;
+    height: 75vh;
+    background: #dedede;
+    padding: 20px;
+    border-radius: 25px;
+}
+.logo_a_header{
+    width: 100%;
+    height: 10vh;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+}
+
+.header{
+    width: 80%;
+    height: 100%;
+}
+.container_body{
+    width: 100%;
+    height: 80%;
+    align-items: stretch;
+}
+
+.column_small{
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    align-items: stretch;
+    gap: 10px;
+    width: 20%;
+    height: 100%;
+}
+.nav_bar{
+    flex: 1 1 60%;
+}
+.store_locator{
+    flex: 1 1 20%;
+}
+.tools{
+    flex: 1 1 20%;
+}
+
+
+
+
+.column_big{
+    align-items: stretch;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 80%;
+    height: 100%;
+}
+
+.col_b_top_row{
+    flex: 1 1 30%;
+    width: 100%;
+}
+
+.col_b_bot_row{
+    flex: 1 1 70%;
+    width: 100%;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 15%;
+}
+
+.mobile_screen{
+    display: none;
+}
+
+.bath_section_intro{
+    width: 70%;
+    height: 100%;
+}
+
+.ad{
+    width: 30%;
+    height: 100%;
+}
+
+.types_of_baths{
+    width: 70%;
+    height: 100%;
+}
+.related_products{
+    width: 30%;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px){
+    .pc_screen{
+        display: none;
+    }
+    .mobile_screen{
+        display: flex;
+    }
+    .sub_container{
+        height: 120vh;
+    }
+    .container_body{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .logo_a_header{
+        column-gap: 2px;
+    }
+    .column_small{
+        width: 100%;
+        height: 5vh;
+        /*margin-bottom: 10px;*/
+    }
+    .nav_bar{
+        align-self: stretch;
+        /*flex: 0 0 5vh;*/
+        width: 100%;
+    }
+    .column_big{
+        width: 100%;
+    }
+    .col_b_top_row{
+        height: 20vh;
+        flex: 1 1 10vh;
+    }
+    .col_b_bot_row{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .types_of_baths{
+        flex: 1 1 100%;
+        height: 40vh;
+    }
+    .related_products{
+        flex: 1 1 100%;
+        height: 20vh;
+    }
+
+    .mb_h_10vh{
+        height: 10vh;
+    }
+
+
+}
