@@ -779,3 +779,15 @@ body {
 .social_media > a {
     margin: 0 10px;
 }
+
+@media screen and (max-width: 1440px){
+    .solutions__rows{
+        margin-left: 0;
+    }
+    .footer_block{
+        gap: 50px;
+    }
+    .list_of_lists{
+        gap: 150px;
+    }
+}
