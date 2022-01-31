@@ -572,10 +572,6 @@ body {
     letter-spacing: 0.34px;
 }
 
-.integrations__text_block > p:nth-last-of-type(2) {
-
-}
-
 .integrations__text_block > p:nth-last-of-type(1) {
     display: inline-block;
     width: 670px;
